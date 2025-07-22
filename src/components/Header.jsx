@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <img src="" alt="" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png?20171228163613" alt="" />
       <nav>
         <ul>
           {/*Cambiar elemento a por componentes Link de react-router-dom*/}
