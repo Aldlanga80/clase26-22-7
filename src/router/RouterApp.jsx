@@ -3,6 +3,7 @@ import { Home } from "../pages/Home"
 import { Dashboard } from "../pages/Dashboard"
 import { Login } from "../pages/login"
 import { NotFound } from "../pages/NotFound"
+import { Register } from "../pages/register"
 const RouterApp = () => {
   return (
     <BrowserRouter>
@@ -10,7 +11,7 @@ const RouterApp = () => {
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/resgister" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="*" element={<NotFound />} />
 
       </Routes>
