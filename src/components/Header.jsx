@@ -1,3 +1,5 @@
+import { Link, Links } from "react-router-dom"
+
 const Header = () => {
   return (
     <header>
@@ -5,14 +7,14 @@ const Header = () => {
       <nav>
         <ul>
           {/*Cambiar elemento a por componentes Link de react-router-dom*/}
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/dashboard">Dashboard</a></li>
-          <li><a href="/login">Login</a></li>
-          <li><a href="/register">Register</a></li>
+          <li><Link to="/">Inicio</Link></li>
+          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/login">Login</Link></li>
+          <li><Link to="/register">Register</Link></li>
           <button>Cerrar Secion</button>
         </ul>
       </nav>
-    </header>
+    </header >
   )
 }
 export { Header }
